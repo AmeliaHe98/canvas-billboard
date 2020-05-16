@@ -1,7 +1,7 @@
 # canvas billboard
 ## I. Set up the server
 1. Configure IBM Virtual server
-  A. I configured mine with Public Multi-tenant, Compute C1.1X1, Ubuntu 18.04 LAMP. The rest is left to default. 
+  * I configured mine with Public Multi-tenant, Compute C1.1X1, Ubuntu 18.04 LAMP. The rest is left to default. 
 2.Configuring virtual servers using the following the following steps: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-configuring-virtual-servers
 3. Set up your VPN using the following steps: https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started
 4. Configure Standalone VPN clients using the following steps: https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients. Here are available VPN endpoints: https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints
