@@ -7,15 +7,15 @@
 4. Configure Standalone VPN clients using the following steps: https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients. Here are available VPN endpoints: https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints
 5. Install Apache, MySQL, and PHP using the following steps: https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-lamp-stack#lamp-stack
 6. Mount your virtual server remotely
-  *. download fuse https://osxfuse.github.io
-  *. SSHFS https://drive.google.com/file/d/0B0H_3AfXLqXLV3hnNjlDeS04STg/view
-  *. create mount directory called linfuse
-  *. fuser -c /path/linfuse
-  *. sshfs name@private IP Address:/ /path/linfuse
+  *  download fuse https://osxfuse.github.io
+  *  SSHFS https://drive.google.com/file/d/0B0H_3AfXLqXLV3hnNjlDeS04STg/view
+  *  create mount directory called linfuse
+  *  fuser -c /path/linfuse
+  *  sshfs name@private IP Address:/ /path/linfuse
 7. In your /etc/apache2/mods-enabled/dir.conf, priortize index.php before index.html so public ip address pulls php 
 ## II. Set up Firebase
 1. Create a Cloud Firestore database using the following steps: https://firebase.google.com/docs/firestore/quickstart
-  *. Use 'app' as your collection ID, 'grid' as your document ID
+  *  Use 'app' as your collection ID, 'grid' as your document ID
 2. Set up development enviornment using the following steps: https://firebase.google.com/docs/firestore/quickstart#set_up_your_development_environment
 3. Go into Project Overview->Project Settings, and generate a new private key. Name the key creds.json and put it in your remote directory
 ## III. Set up code
